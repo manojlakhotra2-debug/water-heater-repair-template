@@ -494,10 +494,10 @@ export const process: ProcessStep[] = [
 export const serviceArea: ServiceAreaContent = {
   title: 'Water Heater Repair & Replacement Across Clovis & Nearby Areas',
   description:
-    'We are based in Clovis and serve the surrounding Central Valley communities. If you are within these areas and your water heater has stopped working, we can usually have a technician at your door the same day.',
+    'We are based in Clovis (93611, 93612, 93613, 93619) and serve the surrounding Central Valley communities, including bordering Fresno neighborhoods (93720, 93730). If you are within these areas and your water heater has stopped working, we can usually have a technician at your door the same day.',
   nearbyAreas: [
-    { name: 'Clovis' },
-    { name: 'Fresno' },
+    { name: 'Clovis (93611, 93612, 93613, 93619)' },
+    { name: 'Fresno (93720, 93730)' },
     { name: 'Sanger' },
     { name: 'Selma' },
     { name: 'Kingsburg' },
@@ -524,7 +524,7 @@ export const faqs: FAQItemContent[] = [
   {
     question: 'How fast can you get to my house in Clovis?',
     answer:
-      'Most calls received before noon get a technician out the same day. Emergency calls are dispatched as quickly as possible — often within an hour or two depending on your location and the time of day.',
+      'Most calls received before noon get a technician out the same day, whether you are in central Clovis (93611, 93612) or out toward the northeast (93619). Emergency calls are dispatched as quickly as possible — often within an hour or two depending on your location and the time of day.',
   },
   {
     question: 'How much does water heater repair cost?',
@@ -602,7 +602,7 @@ export const contact: ContactContent = {
   email: 'dispatch@cloviswaterheaterpros.com',
   hours: 'Mon–Sat 7am–7pm · 24/7 Emergency',
   emergencyPhone: '(559) 555-0142',
-  serviceArea: 'Clovis, CA and the surrounding Central Valley',
+  serviceArea: 'Clovis, CA (93611, 93612, 93613, 93619) and the surrounding Central Valley',
   image: {
     src: 'https://images.pexels.com/photos/5853941/pexels-photo-5853941.jpeg?auto=compress&cs=tinysrgb&w=1000',
     alt: 'Clovis water heater repair team tools and equipment.',

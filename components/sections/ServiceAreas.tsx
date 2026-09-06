@@ -26,7 +26,7 @@ export function ServiceAreas() {
             <FadeUp delay={0.15}>
               <div className="mt-8 flex flex-wrap gap-3">
                 {serviceArea.nearbyAreas.map((area) => (
-                  <ServicePill key={area.name} label={area.name} />
+                  <ServicePill key={area.name} label={area.name} showIcon />
                 ))}
               </div>
             </FadeUp>

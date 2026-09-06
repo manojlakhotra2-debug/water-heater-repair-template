@@ -13,8 +13,8 @@ const serviceLinks = [
 ];
 
 const areaLinks = [
-  'Clovis',
-  'Fresno',
+  'Clovis (93611, 93612, 93619)',
+  'Fresno (93720, 93730)',
   'Sanger',
   'Selma',
   'Madera',
@@ -35,7 +35,7 @@ export function Footer() {
               {meta.businessName}
             </h4>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Local water heater repair and replacement specialists serving {meta.city}, {meta.state} and the surrounding Central Valley. Same-day service, upfront pricing, all major brands.
+              Local water heater repair and replacement specialists serving {meta.city}, {meta.state} (93611, 93612, 93613, 93619) and the surrounding Central Valley. Same-day service, upfront pricing, all major brands.
             </p>
             <img src={meta.logoPath} alt={meta.businessName} className="mt-6 h-8 w-auto brightness-0 invert" />
           </div>

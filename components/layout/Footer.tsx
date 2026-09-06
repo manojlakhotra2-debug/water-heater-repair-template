@@ -13,7 +13,7 @@ const serviceLinks = [
 ];
 
 const areaLinks = [
-  'Clovis (93611, 93612, 93619)',
+  'Clovis (93611, 93612, 93613, 93619)',
   'Fresno (93720, 93730)',
   'Sanger',
   'Selma',

@@ -524,7 +524,7 @@ export const faqs: FAQItemContent[] = [
   {
     question: 'How fast can you get to my house in Clovis?',
     answer:
-      'Most calls received before noon get a technician out the same day, whether you are in central Clovis (93611, 93612) or out toward the northeast (93619). Emergency calls are dispatched as quickly as possible — often within an hour or two depending on your location and the time of day.',
+      'Most calls received before noon get a technician out the same day, whether you are in central Clovis (93611, 93612, 93613) or out toward the northeast (93619). Emergency calls are dispatched as quickly as possible — often within an hour or two depending on your location and the time of day.',
   },
   {
     question: 'How much does water heater repair cost?',

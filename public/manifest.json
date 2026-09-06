@@ -1,0 +1,21 @@
+{
+  "name": "Clovis Water Heater Pros",
+  "short_name": "Water Heater Pros",
+  "description": "Water heater repair and replacement in Clovis, CA. Same-day service, upfront pricing, all major brands.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#EA580C",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

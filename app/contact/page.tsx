@@ -19,7 +19,7 @@ export default function ContactPage() {
           </p>
 
           <p>
-            Reach out anytime at <strong>info@cloviswaterheaterpros.com</strong> or give us a call at <strong>{meta.phone}</strong>, and we'll get back to you as soon as possible.
+            Reach out anytime at <strong>info@waterheaterrepairclovis.com</strong> or give us a call at <strong>{meta.phone}</strong>, and we'll get back to you as soon as possible.
           </p>
 
           <section className="space-y-4 rounded-2xl border border-border bg-card p-8">
@@ -37,11 +37,11 @@ export default function ContactPage() {
               </a>
 
               <a
-                href="mailto:info@cloviswaterheaterpros.com"
+                href="mailto:info@waterheaterrepairclovis.com"
                 className="flex items-center gap-3 text-foreground transition-colors hover:text-accent"
               >
                 <Mail className="h-5 w-5 text-accent" />
-                <span>info@cloviswaterheaterpros.com</span>
+                <span>info@waterheaterrepairclovis.com</span>
               </a>
 
               <div className="flex items-center gap-3 text-foreground">

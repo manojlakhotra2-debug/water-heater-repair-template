@@ -20,13 +20,13 @@ export const meta: MetaContent = {
   phone: '(559) 555-0142',
   emergencyPhone: '(559) 555-0142',
   textPhone: '(559) 555-0142',
-  email: 'info@cloviswaterheaterpros.com',
+  email: 'info@waterheaterrepairclovis.com',
   city: 'Clovis',
   state: 'CA',
   serviceAreaLabel: 'Serving Clovis & Nearby Areas',
   hours: 'Mon–Sat 7am–7pm',
   logoPath: '/logo/logo.svg',
-  domain: 'cloviswaterheaterpros.com',
+  domain: 'waterheaterrepairclovis.com',
 };
 
 export const hero: HeroContent = {
@@ -592,7 +592,7 @@ export const contact: ContactContent = {
   description:
     'No hot water, a leaking tank, a pressure issue, or just overdue for a tune-up? Reach out and our Clovis water heater technicians will get to you, covering residential and commercial properties across Clovis and the greater Central Valley.',
   phone: '(559) 555-0142',
-  email: 'info@cloviswaterheaterpros.com',
+  email: 'info@waterheaterrepairclovis.com',
   hours: 'Mon–Sat 7am–7pm',
   emergencyPhone: '(559) 555-0142',
   serviceArea: 'Clovis, CA (93611, 93612, 93613, 93619) and the surrounding Central Valley',

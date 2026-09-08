@@ -12,6 +12,12 @@ export function ServiceCloud() {
           </h2>
         </FadeUp>
 
+        <FadeUp delay={0.05}>
+          <p className="mt-4 max-w-3xl text-base leading-7 text-white/70 md:text-lg">
+            Whether it's tank, tankless, gas, or electric, we handle every repair and replacement for residential and commercial properties across Clovis and the Central Valley.
+          </p>
+        </FadeUp>
+
         <FadeUp delay={0.1}>
           <div className="mt-8 flex flex-wrap gap-3">
             {serviceCloud.map((pill) => (

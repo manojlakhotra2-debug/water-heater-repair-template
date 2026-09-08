@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import type { ReactNode } from 'react';
 import { Inter, Plus_Jakarta_Sans } from 'next/font/google';
 import { generateMetadata } from '@/lib/seo';
 import { getAllSchemas } from '@/lib/schema';
@@ -25,7 +26,7 @@ export const metadata: Metadata = generateMetadata();
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   const schemas = getAllSchemas();
 
@@ -35,6 +36,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
         {schemas.map((schema, i) => (
           <script
             key={i}
@@ -43,6 +45,7 @@ export default function RootLayout({
           />
         ))}
       </head>
+
       <body className="font-sans antialiased">
         <Header />
         <main className="pb-16 md:pb-0">{children}</main>

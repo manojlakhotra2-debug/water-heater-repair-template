@@ -9,11 +9,10 @@ export function Services() {
         <FadeUp>
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-extrabold tracking-tight text-balance md:text-4xl">
-              Water Heater Repair &amp; Replacement Services
+              Hot Water Heater Repair Services In Clovis, California
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground text-pretty">
-              From a cold shower on a Monday morning to a leaking commercial unit, we handle the full range of water heater problems for {' '}
-              homeowners and businesses. Every service includes a full diagnosis, clear options, and upfront pricing.
+              Whether your water heater stopped heating, is leaking from the tank, making popping or rumbling noises, or keeps running out of hot water, here is how our Clovis water heater technicians diagnose and fix every common problem.
             </p>
           </div>
         </FadeUp>

@@ -101,11 +101,29 @@ export function Footer() {
 
         <div className="mt-12 border-t border-white/10 pt-6">
           <p className="text-xs leading-relaxed text-white/40">
-            Disclaimer: {meta.businessName} is an independent water heater repair and replacement service. All brand names (Rheem, Bradford White, AO Smith, Rinnai, Navien, Takagi) are trademarks of their respective owners and are referenced for service identification purposes only. We are not affiliated with or endorsed by these manufacturers.
+            Disclaimer: {meta.businessName} is a free referral and lead-generation service that connects property owners with independent, licensed water heater repair, replacement, and installation contractors and plumbers in Clovis, CA and surrounding areas. We are not a contractor and do not perform water heater repair, replacement, or installation services ourselves. All work is carried out by independent third-party licensed professionals. We make no warranty or guarantee regarding the services, pricing, licensing, insurance, or quality of any referred provider. All brand names (Rheem, Bradford White, AO Smith, Rinnai, Navien, Takagi) are trademarks of their respective owners, referenced for service identification purposes only, and we are not affiliated with or endorsed by these manufacturers. Response times are estimates and not guaranteed. Nothing on this site constitutes technical or legal advice.
           </p>
-          <p className="mt-4 text-xs text-white/40">
-            &copy; {new Date().getFullYear()} {meta.businessName}. All rights reserved.
-          </p>
+
+          <div className="mt-6 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs text-white/40 md:flex-row">
+            <p>
+              &copy; {new Date().getFullYear()} {meta.businessName}. All rights reserved.
+            </p>
+
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/privacy-policy" className="transition-colors hover:text-accent">
+                Privacy Policy
+              </Link>
+              <Link href="/terms-of-use" className="transition-colors hover:text-accent">
+                Terms of Use
+              </Link>
+              <Link href="/contact" className="transition-colors hover:text-accent">
+                Contact
+              </Link>
+              <Link href="/sitemap" className="transition-colors hover:text-accent">
+                Sitemap
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

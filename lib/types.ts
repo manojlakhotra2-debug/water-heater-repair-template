@@ -15,7 +15,7 @@ export interface MetaContent {
 export interface ImageContent {
   src: string;
   alt: string;
-  prompt: string;
+  prompt?: string; // ← Optional kar diya
 }
 
 export interface TrustIconItem {

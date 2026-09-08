@@ -1,7 +1,6 @@
 import { faqs } from '@/content/clovis-ca';
-import { FAQItem } from '@/components/ui/FAQItem';
 import { FadeUp } from '@/components/ui/FadeUp';
-import { Accordion } from '@/components/ui/accordion';
+import { ChevronRight } from 'lucide-react';
 
 export function FAQ() {
   return (
@@ -19,11 +18,28 @@ export function FAQ() {
         </FadeUp>
 
         <FadeUp delay={0.1}>
-          <Accordion type="single" collapsible className="mx-auto mt-10 max-w-3xl space-y-4">
+          <div className="mx-auto mt-10 max-w-3xl space-y-4">
             {faqs.map((faq, index) => (
-              <FAQItem key={index} faq={faq} index={index} />
+              <div
+                key={index}
+                className="rounded-2xl border border-border bg-background p-5 shadow-md transition-shadow duration-300 hover:shadow-lg"
+              >
+                <div className="flex items-start gap-2">
+                  <ChevronRight className="mt-[3px] h-4 w-4 shrink-0 stroke-[4] text-accent" />
+
+                  <div className="flex-1">
+                    <h3 className="text-[18px] font-bold leading-6 text-[#0A0A0A]">
+                      {faq.question}
+                    </h3>
+
+                    <p className="mt-2 text-[12px] font-normal leading-6 text-[#737373]">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
+              </div>
             ))}
-          </Accordion>
+          </div>
         </FadeUp>
       </div>
     </section>

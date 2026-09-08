@@ -11,7 +11,7 @@ export function Process() {
               Our Water Heater Repair Process
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground text-pretty">
-              From the first call to the final walkthrough, here is exactly what happens when you hire us — no surprises, no jargon, no hidden fees.
+              From the first call to the final walkthrough, here is exactly what happens when you hire us - no surprises, no jargon, no hidden fees.
             </p>
           </div>
         </FadeUp>

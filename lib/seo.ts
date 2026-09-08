@@ -2,16 +2,21 @@ import type { Metadata } from 'next';
 import { meta } from '@/content/clovis-ca';
 
 export function generateMetadata(): Metadata {
-  const title = `${meta.businessName} | Water Heater Repair & Replacement in ${meta.city}, ${meta.state}`;
-  const description = `Same-day water heater repair and replacement in ${meta.city}, ${meta.state}. Emergency service, upfront pricing, all major brands serviced. Call ${meta.phone}.`;
+  const title = 'Water Heater Repair Clovis, CA';
+  const description = `Water Heater Repair Clovis. Expert water heater repair in Clovis, CA for tank, tankless, gas and electric systems. Emergency water heater repair available 24/7. Upfront repair pricing. Serving Clovis and the greater Central Valley. Call now.`;
 
   return {
     metadataBase: new URL(`https://${meta.domain}`),
     title,
     description,
+
+    keywords:
+  'Water Heater Repair Clovis, Water Heater Repair Clovis CA, Water Heater Replacement Clovis, Emergency Water Heater Repair Clovis, Tank Water Heater Repair Clovis, Tankless Water Heater Repair Clovis, Gas Water Heater Repair Clovis, Electric Water Heater Repair Clovis, Commercial Water Heater Repair Clovis, Water Heater Installation Clovis, Hot Water Heater Repair Clovis, Clovis Water Heater Pros',
+
     alternates: {
       canonical: `https://${meta.domain}`,
     },
+
     openGraph: {
       title,
       description,
@@ -28,12 +33,14 @@ export function generateMetadata(): Metadata {
         },
       ],
     },
+
     twitter: {
       card: 'summary_large_image',
       title,
       description,
       images: ['/og-image.png'],
     },
+
     robots: {
       index: true,
       follow: true,
